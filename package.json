@@ -7,7 +7,7 @@
     "pnpm": ">=10.2.1"
   },
   "packageManager": "pnpm@10.2.1",
-  "scripts": {
+  "scripts": {"start": "n8n start"
     "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
     "build": "turbo run build",
